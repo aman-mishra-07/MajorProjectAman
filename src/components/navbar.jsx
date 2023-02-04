@@ -1,13 +1,26 @@
 import './navbar.css'
-export default function Navbar(){
+import logo from './img/logo.png'
+export default function Navbar() {
     return (
         <div className="navbar">
-            <ul>
-                <li><a href=" ">Home    </a></li>
-                <li><a href=" ">Services</a></li>
-                <li><a href=" ">Contact </a></li>
-                <li><a href=" ">About Us</a></li>
-            </ul>
+            <div id="left">
+                <div id="logo">
+                    <img src={logo} alt="LOGO" />
+                </div>
+                <ul>
+                    <li><a href=" " class="a">Home    </a></li>
+                    <li><a href=" " class="a">Services</a></li>
+                    <li><a href=" " class="a">Contact Us</a></li>
+                    <li><a href=" " class="a">About Us</a></li>
+                </ul>
+            </div>
+
+            <div id="right">
+                <input class="input" type="text" placeholder='Search'/>
+                <div className='sign'><a href="" class="a">Sign In</a></div>
+                <div className='sign'><a href="" class="a">Sign Up</a></div>
+            </div>
         </div>
+        
     )
 }
