@@ -17,8 +17,8 @@ export default function Navbar() {
 
             <div id="right">
                 <input class="input" type="text" placeholder='Search'/>
-                <div className='sign'><a href="" class="a">Sign In</a></div>
-                <div className='sign'><a href="" class="a">Sign Up</a></div>
+                <button class="btn">Sign In</button>
+                <button class="btn">Sign Up</button>
             </div>
         </div>
         
