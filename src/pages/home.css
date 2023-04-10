@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
+
+.home{
+    width: 100%;
+    height: 100vh;
+    color: white;
+}
+
+body {
+    background-image: url('../img/camera.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: -10;
+}
+
+* {
+    font-family: 'Ubuntu', sans-seri;
+}
+
+.blurbg {
+    
+    background: rgba(255, 255, 255);
+
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    backdrop-filter: blur(5px);
+
+    
+}
+.blurbgfull {
+    background: transparent;
+    backdrop-filter: blur(15px);
+
+    
+}
