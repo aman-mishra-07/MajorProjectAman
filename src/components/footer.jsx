@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 export default function Flowfooter() {
   return (
     <>
-      <Footer container={true} className="bottom-0 static">
+      <Footer container={true} className="bottom-0 static rounded-none">
         <div className="w-full text-center">
           <div className="w-full justify-between sm:flex sm:items-center sm:justify-between text-white">
             <Footer.Brand

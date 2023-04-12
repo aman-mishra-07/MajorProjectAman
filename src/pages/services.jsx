@@ -3,7 +3,7 @@ export default function Services(props) {
     return(
         
      <> 
-     <div className='flex flex-row overflow-auto snap-x'>
+     <div className='flex flex-row flex-wrap justify-center max-sm:snap-mandatory overflow-auto min-h-screen '>
 
       <Flowcards heading="PRE-WEDDING" image="img/services/prewed.jpg"></Flowcards>
       <Flowcards heading="WEDDING" image="img/services/wedding.jpg"></Flowcards>

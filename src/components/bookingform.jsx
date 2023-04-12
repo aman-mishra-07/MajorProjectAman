@@ -5,16 +5,17 @@ export default function BookingForm(props) {
                 <h1 className="text-center text-4xl">{props.formmsg}</h1>
                 <p className="text-center text-md">{props.msg}</p>
 
-                <form action="booking.php" method="get" className=" grid grid-cols-2 gap-2  max-md:grid-cols-1 ">
+                <form action="#" method="get" id="form" className="  ">
+                    <div className="grid grid-cols-2 gap-2  max-md:grid-cols-1">
 
                     <label htmlFor="name" className="text-xl"> First Name</label>
-                    <input type="text" name="fname" placeholder="First Name" className="bg-transparent m-2 rounded-2xl border-white " />
+                    <input type="text" name="username" placeholder="First Name" className="bg-transparent m-2 rounded-2xl border-white " />
 
                     <label htmlFor="name" className="text-xl"> Last Name</label>
                     <input type="text" name="lname" placeholder="Last Name" className="bg-transparent m-2 rounded-2xl border-white " />
 
                     <label htmlFor="email" className="text-xl">E-mail</label>
-                    <input type="email" name="email" placeholder="Enter E-mail" className="bg-transparent m-2 rounded-2xl border-white" />
+                    <input type="email" name="email" id="email" placeholder="Enter E-mail" className="bg-transparent m-2 rounded-2xl border-white" />
 
                     <label htmlFor="phone" className="text-xl">Phone No.</label>
                     <input type="email" name="phone" placeholder="Enter Phone Number" className="bg-transparent m-2 rounded-2xl border-white" />
@@ -36,12 +37,20 @@ export default function BookingForm(props) {
                         <option value="Product" className="text-black">Product</option>
                         <option value="Landscape" className="text-black">Landscape</option>
                     </select>
+                    </div>
+                    <div className="flex justify-center">
+
+                    <input type="submit" value="submit" className=" w-full bg-sky-700 p-2 m-2 rounded-2xl hover:bg-sky-600" />
+                    </div>
 
 
 
                 </form>
 
-                <p className="text-center text-md m-8">You may also Contact Us at: <br />{props.phone}</p>
+                <p className="text-center text-md m-8">You may also Contact Us at: <br />{props.phone}<br/>{props.email}<br/>{props.instagram}<br/>{props.facebook}</p>
+
+
+                
             </div>
         </>
     )

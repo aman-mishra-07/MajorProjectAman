@@ -1,11 +1,12 @@
 import { Navbar } from "flowbite-react"
 import { Link } from "react-router-dom"
 import Logo from "../assets/logo.png"
+import {BsCameraFill } from "react-icons/bs";
 
 export default function Flownavbar() {
   return (
     <>
-      <Navbar fluid={true} rounded={true} className="shadow sticky top-0 z-50">
+      <Navbar fluid={true} className="shadow sticky top-0 z-50 w-screen ">
         <Navbar.Brand>
           <img
             src={Logo}
@@ -18,6 +19,10 @@ export default function Flownavbar() {
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse>
+          <Navbar.Link
+          >
+            <Link to='/contact' ><BsCameraFill className="mt-1"></BsCameraFill></Link>
+          </Navbar.Link>
           <Navbar.Link
           >
             <Link to='/' >Home</Link>
