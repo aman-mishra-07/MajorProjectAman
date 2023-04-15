@@ -7,13 +7,13 @@ export default function Flowcards(props) {
     return (
        
 
-            <div className="max-w-xs p-4 flex-shrink-0 snap-start w-80">
+            <div className="max-w-xs p-4 max-sm:p-1 flex-shrink-0 snap-start max-sm:w-44">
                 <Card imgSrc={props.image}>
-                    <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white max-sm:text-xs">
                        {props.heading}
                     </h5>
 
-                    <Button>
+                    <Button className=" max-sm:text-xs">
                     <Link to="/Contact">
                         Book Now!
                     </Link>
