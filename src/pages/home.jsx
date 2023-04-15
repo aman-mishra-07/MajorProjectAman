@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import './home.css'
-import Booking from './booking'
+// import Booking from './booking'
 import ContactForm from '../components/contactform'
 import { AiOutlineFacebook,AiOutlineInstagram,AiOutlineYoutube,AiOutlinePhone } from "react-icons/ai";
 
@@ -10,7 +10,7 @@ export default function Home() {
         <body>
             <div className="home min-w-full flex justify-center flex-col items-center min-h-screen -z-10">
                 <h1 className="blurbg text-5xl text-center max-sm:blurbg max-sm:text-3xl"> Welcome to PVC studio.Com</h1>
-                <p className='text-center text-xl blurbg'>Hi, We are the photographers for all your Life events &
+                <p className='text-center text-xl blurbg max-sm:pr-2 max-sm:pl-2'>Hi, We are the photographers for all your Life events &
                     Functions. Your story is important and deserves to be told in
                     the most beautyful way.</p>
                 <p className='text-white'>Check Availability & Book Now!</p>
@@ -35,7 +35,7 @@ export default function Home() {
                 <h1 className='text-5xl text-center max-sm:text-2xl'>Stay Connected With Us</h1>
 
                 <div className='flex flex-row flex-wrap justify-center items-center  min-w-fit h-fit mt-5 max-sm:m-4 '>
-                    <div className="m-2">
+                    <div className="">
                         <ContactForm formname="Contact Us" msg="We will get back to you asap!" phone="9878339911"></ContactForm>
                     </div>
 
@@ -46,11 +46,13 @@ export default function Home() {
                             Functions. Your story is important and deserves to be told in
                             the most beautiful way.
                             We specialize in creating a compiling images of weddings, celebrations and togetherness.</p><br/><br/>
-                            <p className="text-center text-md">You may also Contact Us at: <br/> 
+                            <p className="text-center text-md">You may also Contact Us at: <br/>
+                            <div className=' max-sm:flex'>
                             <Link to="https://www.facebook.com/"><AiOutlineFacebook size="2rem"></AiOutlineFacebook></Link>
                             <Link to="https://www.instagram.com/"> <AiOutlineInstagram size="2rem"></AiOutlineInstagram></Link>
                             <Link to="https://www.youtube.com/@amanpvcstudio475"><AiOutlineYoutube size="2rem"></AiOutlineYoutube></Link>
                             <Link to="https://voice.google.com/u/0/about"><AiOutlinePhone size="2rem"></AiOutlinePhone></Link>
+                                </div> 
                             </p>
                     </div>
 

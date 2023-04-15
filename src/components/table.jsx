@@ -1,4 +1,5 @@
 import { Table } from 'flowbite-react'
+import { Link } from 'react-router-dom'
 
 export default function Flowtable(props) {
   return (
@@ -31,12 +32,7 @@ export default function Flowtable(props) {
        20,000
       </Table.Cell>
       <Table.Cell>
-        <a
-          href="/contact"
-          className="font-medium text-blue-600 hover:underline dark:text-blue-500"
-        >
-         Book Now
-        </a>
+        <Link to="/contact" className="font-medium text-blue-600 hover:underline dark:text-blue-500">Book Now</Link>
       </Table.Cell>
     </Table.Row>
     <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
@@ -50,12 +46,7 @@ export default function Flowtable(props) {
        22,000
       </Table.Cell>
       <Table.Cell>
-        <a
-          href="/contact"
-          className="font-medium text-blue-600 hover:underline dark:text-blue-500"
-        >
-         Book Now
-        </a>
+      <Link to="/contact" className="font-medium text-blue-600 hover:underline dark:text-blue-500">Book Now</Link>
       </Table.Cell>
     </Table.Row>
     <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
@@ -69,12 +60,7 @@ export default function Flowtable(props) {
        18,000
       </Table.Cell>
       <Table.Cell>
-        <a
-          href="/contact"
-          className="font-medium text-blue-600 hover:underline dark:text-blue-500"
-        >
-         Book Now
-        </a>
+      <Link to="/contact" className="font-medium text-blue-600 hover:underline dark:text-blue-500">Book Now</Link>
       </Table.Cell>
     </Table.Row>
     <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
@@ -88,12 +74,7 @@ export default function Flowtable(props) {
        20,000
       </Table.Cell>
       <Table.Cell>
-        <a
-          href="/contact"
-          className="font-medium text-blue-600 hover:underline dark:text-blue-500"
-        >
-         Book Now
-        </a>
+      <Link to="/contact" className="font-medium text-blue-600 hover:underline dark:text-blue-500">Book Now</Link>
       </Table.Cell>
     </Table.Row>
     <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
@@ -107,12 +88,7 @@ export default function Flowtable(props) {
        15,000
       </Table.Cell>
       <Table.Cell>
-        <a
-          href="/contact"
-          className="font-medium text-blue-600 hover:underline dark:text-blue-500"
-        >
-         Book Now
-        </a>
+      <Link to="/contact" className="font-medium text-blue-600 hover:underline dark:text-blue-500">Book Now</Link>
       </Table.Cell>
     </Table.Row>
     <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
@@ -126,12 +102,7 @@ export default function Flowtable(props) {
        15,000
       </Table.Cell>
       <Table.Cell>
-        <a
-          href="/contact"
-          className="font-medium text-blue-600 hover:underline dark:text-blue-500"
-        >
-         Book Now
-        </a>
+      <Link to="/contact" className="font-medium text-blue-600 hover:underline dark:text-blue-500">Book Now</Link>
       </Table.Cell>
     </Table.Row>
     <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
@@ -145,12 +116,7 @@ export default function Flowtable(props) {
        15,000
       </Table.Cell>
       <Table.Cell>
-        <a
-          href="/contact"
-          className="font-medium text-blue-600 hover:underline dark:text-blue-500"
-        >
-         Book Now
-        </a>
+      <Link to="/contact" className="font-medium text-blue-600 hover:underline dark:text-blue-500">Book Now</Link>
       </Table.Cell>
     </Table.Row>
     <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
@@ -164,12 +130,7 @@ export default function Flowtable(props) {
        15,000
       </Table.Cell>
       <Table.Cell>
-        <a
-          href="/contact"
-          className="font-medium text-blue-600 hover:underline dark:text-blue-500"
-        >
-         Book Now
-        </a>
+      <Link to="/contact" className="font-medium text-blue-600 hover:underline dark:text-blue-500">Book Now</Link>
       </Table.Cell>
     </Table.Row>
     <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
@@ -183,12 +144,7 @@ export default function Flowtable(props) {
        15,000
       </Table.Cell>
       <Table.Cell>
-        <a
-          href="/contact"
-          className="font-medium text-blue-600 hover:underline dark:text-blue-500"
-        >
-         Book Now
-        </a>
+      <Link to="/contact" className="font-medium text-blue-600 hover:underline dark:text-blue-500">Book Now</Link>
       </Table.Cell>
     </Table.Row>
     <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
@@ -202,12 +158,7 @@ export default function Flowtable(props) {
        20,000
       </Table.Cell>
       <Table.Cell>
-        <a
-          href="/contact"
-          className="font-medium text-blue-600 hover:underline dark:text-blue-500"
-        >
-         Book Now
-        </a>
+      <Link to="/contact" className="font-medium text-blue-600 hover:underline dark:text-blue-500">Book Now</Link>
       </Table.Cell>
     </Table.Row>
     <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
@@ -221,12 +172,7 @@ export default function Flowtable(props) {
        20,000
       </Table.Cell>
       <Table.Cell>
-        <a
-          href="/contact"
-          className="font-medium text-blue-600 hover:underline dark:text-blue-500"
-        >
-         Book Now
-        </a>
+      <Link to="/contact" className="font-medium text-blue-600 hover:underline dark:text-blue-500">Book Now</Link>
       </Table.Cell>
     </Table.Row>
     <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
@@ -240,12 +186,7 @@ export default function Flowtable(props) {
        18,000
       </Table.Cell>
       <Table.Cell>
-        <a
-          href="/contact"
-          className="font-medium text-blue-600 hover:underline dark:text-blue-500"
-        >
-         Book Now
-        </a>
+      <Link to="/contact" className="font-medium text-blue-600 hover:underline dark:text-blue-500">Book Now</Link>
       </Table.Cell>
     </Table.Row>
     <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
@@ -259,12 +200,7 @@ export default function Flowtable(props) {
        16,000
       </Table.Cell>
       <Table.Cell>
-        <a
-          href="/contact"
-          className="font-medium text-blue-600 hover:underline dark:text-blue-500"
-        >
-         Book Now
-        </a>
+      <Link to="/contact" className="font-medium text-blue-600 hover:underline dark:text-blue-500">Book Now</Link>
       </Table.Cell>
     </Table.Row>
     <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
@@ -278,12 +214,7 @@ export default function Flowtable(props) {
       20,000
       </Table.Cell>
       <Table.Cell>
-        <a
-          href="/contact"
-          className="font-medium text-blue-600 hover:underline dark:text-blue-500"
-        >
-         Book Now
-        </a>
+      <Link to="/contact" className="font-medium text-blue-600 hover:underline dark:text-blue-500">Book Now</Link>
       </Table.Cell>
     </Table.Row>
      </Table.Body>  

@@ -1,10 +1,10 @@
 export default function ContactForm(props) {
     return(
         <>
-        <div className="leftcmax-md:h-fit max-sm:w-50 p-8 bg-slate-900 bg-opacity-70 border border-white h-fit w-100 m-5 rounded-2xl  ">
+        <div className="leftcmax-md:h-fit max-sm:w-50 p-8 bg-slate-900 bg-opacity-70 border border-white h-fit w-100 m-5 max-sm:m-0 rounded-2xl  ">
                     <h1 className="text-center text-4xl max-sm:text-2xl">{props.formname}</h1>
                     <p className="text-center text-md max-sm:text-sm">{props.msg}</p>
-                    <form action="form.php" className="p-4 flex flex-col max-sm:p-1 ">
+                    <form action="http://localhost/MajorProjectAman/Connection.php" method="post" className="p-4 flex flex-col max-sm:p-1 ">
                         <label htmlFor="user">Name</label>
                         <input type="text" name="user" placeholder="Enter your name" className="bg-transparent m-2 rounded-2xl border-white " />
                         <label htmlFor="email">Email</label>

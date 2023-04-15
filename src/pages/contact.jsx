@@ -5,7 +5,7 @@ import ContactForm from "../components/contactform";
 export default function Contact(props) {
     return (
         <>
-            <div className="parent mt-10 mb-10 flex flex-wrap flex-row justify-evenly items-center text-white w-full h-fit backdrop-blur-sm max-sm:m-2">
+            <div className="parent mt-10 mb-10 flex flex-wrap flex-row justify-evenly items-center text-white w-full h-fit backdrop-blur-sm max-sm:mt-2">
             <BookingForm 
             formmsg="Photography Session Booking Form" 
             msg="Fill the form for booking" 
