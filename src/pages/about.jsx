@@ -20,6 +20,9 @@ export default function About(){
         </p>
     </div>
        <div className="min-w-full flex flex-row flex-wrap p-40 max-lg:p-10 text-white bg-black bg-opacity-40 justify-center align-middle">
+        <div className="dcards flex justify-center items-center m-2 p-2 rounded-lg h-52 max-lg:h-12 w-1/4 text-center backdrop-blur-3xl bg-blue-700 shadow shadow-white max-sm:w-3/4 text-2xl max-lg:text-xl">PHOTOGRAPHY</div>
+        <div className="dcards flex justify-center items-center m-2 p-2 rounded-lg h-52 max-lg:h-12 w-1/4 text-center backdrop-blur-3xl bg-blue-700 shadow shadow-white max-sm:w-3/4 text-2xl max-lg:text-xl">VIDEOGRAPHY</div>
+        <div className="dcards flex justify-center items-center m-2 p-2 rounded-lg h-52 max-lg:h-12 w-1/4 text-center backdrop-blur-3xl bg-blue-700 shadow shadow-white max-sm:w-3/4 text-2xl max-lg:text-xl">CINEMATOGRAPHY</div>
         <div className="dcards flex justify-center items-center m-2 p-2 rounded-lg h-52 max-lg:h-12 w-1/4 text-center backdrop-blur-3xl bg-blue-700 shadow shadow-white max-sm:w-3/4 text-2xl max-lg:text-xl">70+ projects</div>
         <div className="dcards flex justify-center items-center m-2 p-2 rounded-lg h-52 max-lg:h-12 w-1/4 text-center backdrop-blur-3xl bg-blue-700 shadow shadow-white max-sm:w-3/4 text-2xl max-lg:text-xl">3 years Experience</div>
         <div className="dcards flex justify-center items-center m-2 p-2 rounded-lg  h-52 max-lg:h-12  w-1/4 text-center backdrop-blur-3xl bg-blue-700 shadow shadow-white max-sm:w-3/4 text-2xl max-lg:text-xl">12 Employees</div>
